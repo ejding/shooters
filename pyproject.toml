@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rangelab-pose"
+version = "0.1.0"
+description = "Pose extraction for basketball shooting analysis"
+requires-python = ">=3.10"
+dependencies = [
+  "mediapipe>=0.10,<0.11",
+  "opencv-python>=4.8",
+  "numpy>=1.24",
+]
+
+[tool.setuptools]
+py-modules = []
+
